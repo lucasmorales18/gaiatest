@@ -3,24 +3,24 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:lucasmorales18.github.io:acuratiogaiax",
+  "id": "did:web:lucasmorales18.github.io:gaiatest",
   "verificationMethod": [
     {
       "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
-      "id": "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020",
+      "id": "did:web:lucasmorales18.github.io:gaiatest#X509-JWK2020",
       "type": "JsonWebKey",
-      "controller": "did:web:lucasmorales18.github.io:acuratiogaiax",
+      "controller": "did:web:lucasmorales18.github.io:gaiatest",
       "publicKeyJwk": {
         "kty": "RSA",
         "n": "vIKQdFPv-iII8ug5g8inJsrZO7HyA_-Kl_2CV-oGNsT5A2Jq2-lN4WO4fNjRGG7B7NN-0lCD1NyiFLnBIeUvXd3S45ICULtIhuLBqvnITjc2yp157qRzAmM16-T96b1moT0UCqiXa9YkI2l-G1LAmZSEHzmLI0lQB318vO3oQOPoBP4-DFnceqmHuLgwjbyqB3LdNWJWccnOEivF5LfeIwzv7YU0R58VCnBK63ezKLB3WY3yc2aIyB89w2KE7fRYPHza1Y6Ke6pAZxYaarlZmbphuC4LKohiYSJAv7t5_gNZINQbYkukadhXRvt6fbIF9RQ7kHUKADfbt-lCdWLa7Q",
         "e": "AQAB",
         "kid": "X509-JWK2020",
         "alg": "RS256",
-        "x5u": "https://lucasmorales18.github.io/acuratiogaiax/.well-known/x509CertificateChain.pem"
+        "x5u": "https://lucasmorales18.github.io/gaiatest/.well-known/x509CertificateChain.pem"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:lucasmorales18.github.io:acuratiogaiax#X509-JWK2020"
+    "did:web:lucasmorales18.github.io:gaiatest#X509-JWK2020"
   ]
 }
